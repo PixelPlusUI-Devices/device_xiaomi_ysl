@@ -245,6 +245,18 @@ persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableSigHandler=1 \
 persist.vendor.ims.disableQXDMLogs=1
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true \
+ro.surface_flinger.set_idle_timer_ms=9000 \
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+debug.sf.early_app_phase_offset_ns=1500000 \
+debug.sf.early_gl_app_phase_offset_ns=15000000 \
+debug.sf.early_gl_phase_offset_ns=3000000 \
+debug.sf.early_phase_offset_ns=1500000 \
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
+ro.surface_flinger.max_virtual_display_dimension=4096
+    
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true \
