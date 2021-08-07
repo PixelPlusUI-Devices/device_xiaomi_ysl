@@ -1,0 +1,6 @@
+# PixelPlusUI OFFICIAL
+ro.ppui.device_name=RedmiY2/S2
+ro.ppui.version=3.8
+ro.ppui.version_code=Hikaru
+ro.ppui.is_official=true
+ro.ppui.maintainer_name=Sushmit
