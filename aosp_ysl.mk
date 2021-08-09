@@ -42,12 +42,6 @@ PRODUCT_MODEL := Redmi S2
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.ppui.device_name=YSL \
-ro.ppui.version=3.4 \
-ro.ppui.version_code=Onyx \
-ro.ppui.is_official=true \
-ro.ppui.maintainer_name=Sushmit_Rathore
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
