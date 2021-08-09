@@ -44,6 +44,9 @@ vendor.audio.feature.a2dp_offload.enable=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
+persist.bt.enableAptXHD=true \
+persist.service.btui.use_aptx=1 \
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-ldac \
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
 persist.bluetooth.a2dp_offload.disabled=true \
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
