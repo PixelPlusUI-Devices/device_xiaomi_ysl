@@ -68,8 +68,3 @@ service goodix_script /vendor/bin/init.goodix.sh
     class late_start
     user system
     oneshot
-
-# LED in offline charging mode
-on charger
-    chown system system /sys/class/leds/red/brightness
-    write /sys/class/leds/red/brightness 255
