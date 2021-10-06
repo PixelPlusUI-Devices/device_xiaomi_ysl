@@ -1,6 +1,6 @@
 # PixelPlusUI OFFICIAL
 ro.ppui.device_name=RedmiY2/S2
-ro.ppui.version=3.9
-ro.ppui.version_code=Eternal
+ro.ppui.version=3.10
+ro.ppui.version_code=Azrael
 ro.ppui.is_official=true
 ro.ppui.maintainer_name=Sushmit
